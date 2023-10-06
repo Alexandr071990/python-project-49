@@ -18,7 +18,10 @@ package-install:
 make lint:
 	poetry run flake8 brain_games
 
-#Запуск проекта
+#Запуск brain-games
 brain-games:
 	poetry run brain-games
 
+#запуск brain-even
+brain-even:
+	poetry run brain-even
