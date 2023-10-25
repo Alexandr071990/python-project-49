@@ -6,17 +6,14 @@ from random import randint
 QUESTION_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def check_even(x):
-    if int(x % 2) == 0:
-        answer = True
-    elif int(x % 2) != 0:
-        answer = False
-    return answer
-
 def get_number_and_answer():
-    random = randint(1, 100)
-    if check_even(random) is True:
-        answer = 'yes'
+    task = randint(1, 100)
+    if check_even(task) is True:
+        correct_answer = 'yes'
     else:
-        answer = 'no'
-    return random, answer
+        correct_answer = 'no'
+    return correct_answer, task
+
+
+def check_even(task):
+    return True if task % 2 == 0 else False

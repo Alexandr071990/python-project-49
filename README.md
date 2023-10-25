@@ -4,3 +4,6 @@
 
 Запись работы игры brain-even:
 https://asciinema.org/a/eWiyfTvbuYMMXiJSEOdh3G6QZ
+
+Запись работы игры brain-calc:
+https://asciinema.org/a/EU7hiJQrDtKZs7OIMJzJeND01
