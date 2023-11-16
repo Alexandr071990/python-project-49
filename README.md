@@ -7,3 +7,6 @@ https://asciinema.org/a/eWiyfTvbuYMMXiJSEOdh3G6QZ
 
 Запись работы игры brain-calc:
 https://asciinema.org/a/EU7hiJQrDtKZs7OIMJzJeND01
+
+Запись работы игры brain-gcd:
+https://asciinema.org/a/o6vFURbFltr1H524xxnpt1Lfi

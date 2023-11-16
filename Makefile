@@ -15,7 +15,7 @@ package-install:
 	python3 -m pip install --user dist/* --force-reinstall
 
 #Проверка линтера
-make lint:
+lint:
 	poetry run flake8 brain_games
 
 #Запуск brain-games
@@ -29,3 +29,7 @@ brain-even:
 #запуск brain-calc
 brain-calc:
 	poetry run brain-calc
+
+#запуск brain-gcd
+brain-gcd:
+	poetry run brain-gcd
