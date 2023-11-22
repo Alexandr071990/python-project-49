@@ -33,3 +33,7 @@ brain-calc:
 #запуск brain-gcd
 brain-gcd:
 	poetry run brain-gcd
+
+#запуск brain-progression
+brain-progression:
+	poetry run brain-progression
