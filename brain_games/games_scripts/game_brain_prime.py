@@ -7,7 +7,7 @@ QUESTION_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(task):
     k = 0
-    for i in range(2, (task//2) + 1):
+    for i in range(2, (task // 2) + 1):
         if task % i == 0:
             k = + 1
     if (k <= 0):
