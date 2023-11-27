@@ -1,20 +1,26 @@
 #!/usr/bin/env python3
 
-from operator import add, sub, mul
-from random import randint, choice
+import random
+from random import randint
 
 
 QUESTION_GAME = 'What is the result of the expression?'
-OPERATORS = {'+': add, '-': sub, '*': mul}
+
+
+def calculator(first_number, operator, second_number):
+    if operator == '+':
+        correct_answer = first_number + second_number
+    elif operator == '-':
+        correct_answer = first_number - second_number
+    elif operator == '*':
+        correct_answer = first_number * second_number
+    return correct_answer
 
 
 def get_number_and_answer():
     first_number, second_number = randint(1, 10), randint(1, 10)
-    operator = choice(list(OPERATORS.keys()))
-    correct_answer = str(abs(OPERATORS[operator](first_number, second_number)))
-    if first_number > second_number:
-        task = f'{first_number} {operator} {second_number}'
-    elif second_number > first_number:
-        task = f'{second_number} {operator} {first_number}'
+    operator = random.choice(['+', '-', '*'])
+    task = f'{first_number} {operator} {second_number}'
+    correct_answer = str(calculator(first_number, operator, second_number))
 
     return correct_answer, task
