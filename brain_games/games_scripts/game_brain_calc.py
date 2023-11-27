@@ -9,8 +9,7 @@ OPERATORS = {'+': add, '-': sub, '*': mul}
 
 
 def get_number_and_answer():
-    first_number = randint(1, 10)
-    second_number = randint(1, 10)
+    first_number, second_number = randint(1, 10), randint(1, 10)
     operator = choice(list(OPERATORS.keys()))
     correct_answer = str(abs(OPERATORS[operator](first_number, second_number)))
     if first_number > second_number:
