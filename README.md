@@ -15,3 +15,4 @@ https://asciinema.org/a/o6vFURbFltr1H524xxnpt1Lfi
 https://asciinema.org/a/od306yHgYKGqmmUJViMvsECxd
 
 Запись работы игры brain-prime:
+https://asciinema.org/a/C2SK61C21hhJiqxgix2Txh7DU
