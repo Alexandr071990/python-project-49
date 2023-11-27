@@ -16,6 +16,6 @@ def start_or_end_games(game):
         if your_answer != correct_answer:
             print(f"{your_answer} is wrong answer ;(.")
             print(f"Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
