@@ -8,36 +8,36 @@
 
 Описание игр:
 
-Игра: «Проверка на чётность».
+#### Игра: «Проверка на чётность».
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное.
 
 Запись работы игры brain-even:
-https://asciinema.org/a/eWiyfTvbuYMMXiJSEOdh3G6QZ
+<a href="https://asciinema.org/a/Xs84jYRUMcBrCVS0NEPp1Smtz" target="_blank"><img src="https://asciinema.org/a/Xs84jYRUMcBrCVS0NEPp1Smtz.svg" /></a>
 
 
-Игра: «Калькулятор».
+#### Игра: «Калькулятор».
 Суть игры в следующем: пользователю показывается случайное математическое выражение, например, 35 + 16, которое нужно вычислить и записать правильный ответ.
 
 Запись работы игры brain-calc:
-https://asciinema.org/a/EU7hiJQrDtKZs7OIMJzJeND01
+<a href="https://asciinema.org/a/ysFnZB0NKQV46PfGsSOnLbxWo" target="_blank"><img src="https://asciinema.org/a/ysFnZB0NKQV46PfGsSOnLbxWo.svg" /></a>
 
 
-Игра «Наибольший общий делитель (НОД)».
+#### Игра «Наибольший общий делитель (НОД)».
 Суть игры в следующем: пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 
 Запись работы игры brain-gcd:
-https://asciinema.org/a/o6vFURbFltr1H524xxnpt1Lfi
+<a href="https://asciinema.org/a/nDcQ0jdDlWqPLs5bD9CD58c5f" target="_blank"><img src="https://asciinema.org/a/nDcQ0jdDlWqPLs5bD9CD58c5f.svg" /></a>
 
 
-Игра «Арифметическая прогрессия».
+#### Игра «Арифметическая прогрессия».
 Показываем игроку ряд чисел, который образует арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
 
-Запись работы игры brain-progression:
-https://asciinema.org/a/od306yHgYKGqmmUJViMvsECxd
+Запись работы игры brain-progression: 
+<a href="https://asciinema.org/a/od306yHgYKGqmmUJViMvsECxd" target="_blank"><img src="https://asciinema.org/a/od306yHgYKGqmmUJViMvsECxd.svg" /></a>
 
 
-Игра «Простое ли число?».
+#### Игра «Простое ли число?».
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число простое, или no — если непростое.
 
-Запись работы игры brain-prime:
-https://asciinema.org/a/C2SK61C21hhJiqxgix2Txh7DU
+Запись работы игры brain-prime: 
+<a href="https://asciinema.org/a/C2SK61C21hhJiqxgix2Txh7DU" target="_blank"><img src="https://asciinema.org/a/C2SK61C21hhJiqxgix2Txh7DU.svg" /></a>

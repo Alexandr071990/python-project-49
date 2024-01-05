@@ -8,6 +8,10 @@ readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"

@@ -1,12 +1,10 @@
-#!/usr/bin/env python3
-
 from random import randint
 
 
 QUESTION_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def get_number_and_answer():
+def get_question_and_answer():
     task = randint(1, 100)
     if check_even(task) is True:
         correct_answer = 'yes'
